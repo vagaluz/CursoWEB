@@ -1,0 +1,257 @@
+{
+    "supermercados": [
+      {
+        "nombre": "Mercadona",
+        "direccion": "Calle Principal 123, Ciudad",
+        "geolocalizacion": {
+          "latitud": 40.123456,
+          "longitud": -3.654321
+        },
+        "productos": [
+          {
+            "nombre": "Leche",
+            "oferta": true,
+            "periodo_vigencia": "2023-06-01 al 2023-06-30",
+            "unidad_medida": "litro",
+            "precio": 1.5,
+            "adquirido": true
+          },
+          {
+            "nombre": "Pan",
+            "oferta": false,
+            "unidad_medida": "unidad",
+            "precio": 0.8,
+            "adquirido": false
+          },
+          {
+            "nombre": "Huevos",
+            "oferta": true,
+            "periodo_vigencia": "2023-06-01 al 2023-06-30",
+            "unidad_medida": "docena",
+            "precio": 2.5,
+            "adquirido": false
+          },
+          {
+            "nombre": "Arroz",
+            "oferta": true,
+            "periodo_vigencia": "2023-06-01 al 2023-06-30",
+            "unidad_medida": "kg",
+            "precio": 1.2,
+            "adquirido": false
+          },
+          {
+            "nombre": "Manzanas",
+            "oferta": false,
+            "unidad_medida": "kg",
+            "precio": 1.0,
+            "adquirido": false
+          },
+          {
+            "nombre": "Aceite de oliva",
+            "oferta": false,
+            "unidad_medida": "litro",
+            "precio": 3.5,
+            "adquirido": false
+          },
+          {
+            "nombre": "Cebollas",
+            "oferta": true,
+            "periodo_vigencia": "2023-06-01 al 2023-06-30",
+            "unidad_medida": "kg",
+            "precio": 0.5,
+            "adquirido": false
+          },
+          {
+            "nombre": "Yogur",
+            "oferta": false,
+            "unidad_medida": "unidad",
+            "precio": 0.9,
+            "adquirido": false
+          },
+          {
+            "nombre": "Pasta",
+            "oferta": true,
+            "periodo_vigencia": "2023-06-01 al 2023-06-30",
+            "unidad_medida": "paquete",
+            "precio": 1.0,
+            "adquirido": false
+          },
+          {
+            "nombre": "Tomates",
+            "oferta": false,
+            "unidad_medida": "kg",
+            "precio": 1.2,
+            "adquirido": false
+          }
+        ]
+      },
+      {
+        "nombre": "BM",
+        "direccion": "Avenida Principal 456, Ciudad",
+        "geolocalizacion": {
+          "latitud": 40.654321,
+          "longitud": -3.123456
+        },
+        "productos": [
+          {
+            "nombre": "Leche",
+            "oferta": false,
+            "unidad_medida": "litro",
+            "precio": 1.7,
+            "adquirido": false
+          },
+          {
+            "nombre": "Pan",
+            "oferta": false,
+            "unidad_medida": "unidad",
+            "precio": 1.2,
+            "adquirido": false
+          },
+          {
+            "nombre": "Huevos",
+            "oferta": false,
+            "unidad_medida": "docena",
+            "precio": 3.0,
+            "adquirido": false
+          },
+          {
+            "nombre": "Arroz",
+            "oferta": true,
+            "periodo_vigencia": "2023-06-01 al 2023-06-30",
+            "unidad_medida": "kg",
+            "precio": 1.5,
+            "adquirido": true
+          },
+          {
+            "nombre": "Manzanas",
+            "oferta": false,
+            "unidad_medida": "kg",
+            "precio": 1.2,
+            "adquirido": false
+          },
+          {
+            "nombre": "Aceite de oliva",
+            "oferta": false,
+            "unidad_medida": "litro",
+            "precio": 4.5,
+            "adquirido": false
+          },
+          {
+            "nombre": "Cebollas",
+            "oferta": false,
+            "unidad_medida": "kg",
+            "precio": 0.6,
+            "adquirido": false
+          },
+          {
+            "nombre": "Yogur",
+            "oferta": false,
+            "unidad_medida": "unidad",
+            "precio": 1.0,
+            "adquirido": false
+          },
+          {
+            "nombre": "Pasta",
+            "oferta": false,
+            "unidad_medida": "paquete",
+            "precio": 1.2,
+            "adquirido": false
+          },
+          {
+            "nombre": "Tomates",
+            "oferta": true,
+            "periodo_vigencia": "2023-06-01 al 2023-06-30",
+            "unidad_medida": "kg",
+            "precio": 0.8,
+            "adquirido": false
+          }
+        ]
+      },
+      {
+        "nombre": "Lidl",
+        "direccion": "Calle Secundaria 789, Ciudad",
+        "geolocalizacion": {
+          "latitud": 40.987654,
+          "longitud": -3.987654
+        },
+        "productos": [
+          {
+            "nombre": "Leche",
+            "oferta": true,
+            "periodo_vigencia": "2023-06-01 al 2023-06-30",
+            "unidad_medida": "litro",
+            "precio": 1.3,
+            "adquirido": true
+          },
+          {
+            "nombre": "Pan",
+            "oferta": true,
+            "periodo_vigencia": "2023-06-01 al 2023-06-30",
+            "unidad_medida": "unidad",
+            "precio": 0.6,
+            "adquirido": false
+          },
+          {
+            "nombre": "Huevos",
+            "oferta": false,
+            "unidad_medida": "docena",
+            "precio": 2.8,
+            "adquirido": false
+          },
+          {
+            "nombre": "Arroz",
+            "oferta": false,
+            "unidad_medida": "kg",
+            "precio": 1.3,
+            "adquirido": false
+          },
+          {
+            "nombre": "Manzanas",
+            "oferta": true,
+            "periodo_vigencia": "2023-06-01 al 2023-06-30",
+            "unidad_medida": "kg",
+            "precio": 0.9,
+            "adquirido": false
+          },
+          {
+            "nombre": "Aceite de oliva",
+            "oferta": false,
+            "unidad_medida": "litro",
+            "precio": 3.0,
+            "adquirido": false
+          },
+          {
+            "nombre": "Cebollas",
+            "oferta": true,
+            "periodo_vigencia": "2023-06-01 al 2023-06-30",
+            "unidad_medida": "kg",
+            "precio": 0.4,
+            "adquirido": false
+          },
+          {
+            "nombre": "Yogur",
+            "oferta": true,
+            "periodo_vigencia": "2023-06-01 al 2023-06-30",
+            "unidad_medida": "unidad",
+            "precio": 0.7,
+            "adquirido": false
+          },
+          {
+            "nombre": "Pasta",
+            "oferta": false,
+            "unidad_medida": "paquete",
+            "precio": 1.1,
+            "adquirido": false
+          },
+          {
+            "nombre": "Tomates",
+            "oferta": false,
+            "unidad_medida": "kg",
+            "precio": 1.1,
+            "adquirido": false
+          }
+        ]
+      }
+    ]
+  }
+  
