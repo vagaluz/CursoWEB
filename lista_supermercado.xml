@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supermercados>
+  <supermercado>
+    <nombre>Mercadona</nombre>
+    <direccion>Calle Principal 123, Ciudad</direccion>
+    <geolocalizacion>
+      <latitud>40.123456</latitud>
+      <longitud>-3.654321</longitud>
+    </geolocalizacion>
+    <productos>
+      <producto>
+        <nombre>Leche</nombre>
+        <oferta>true</oferta>
+        <periodo_vigencia>2023-06-01 al 2023-06-30</periodo_vigencia>
+        <detalles>
+          <unidad_medida>litro</unidad_medida>
+          <precio>1.5</precio>
+          <adquirido>true</adquirido>
+        </detalles>
+      </producto>
+      <producto>
+        <nombre>Pan</nombre>
+        <oferta>false</oferta>
+        <detalles>
+          <unidad_medida>unidad</unidad_medida>
+          <precio>0.8</precio>
+          <adquirido>false</adquirido>
+        </detalles>
+      </producto>
+      <!-- Resto de productos de Mercadona -->
+    </productos>
+  </supermercado>
+  <supermercado>
+    <nombre>BM</nombre>
+    <direccion>Avenida Principal 456, Ciudad</direccion>
+    <geolocalizacion>
+      <latitud>40.654321</latitud>
+      <longitud>-3.123456</longitud>
+    </geolocalizacion>
+    <productos>
+      <producto>
+        <nombre>Leche</nombre>
+        <oferta>false</oferta>
+        <detalles>
+          <unidad_medida>litro</unidad_medida>
+          <precio>1.7</precio>
+          <adquirido>false</adquirido>
+        </detalles>
+      </producto>
+      <producto>
+        <nombre>Pan</nombre>
+        <oferta>false</oferta>
+        <detalles>
+          <unidad_medida>unidad</unidad_medida>
+          <precio>1.2</precio>
+          <adquirido>false</adquirido>
+        </detalles>
+      </producto>
+      <!-- Resto de productos de BM -->
+    </productos>
+  </supermercado>
+  <supermercado>
+    <nombre>Lidl</nombre>
+    <direccion>Calle Secundaria 789, Ciudad</direccion>
+    <geolocalizacion>
+      <latitud>40.987654</latitud>
+      <longitud>-3.987654</longitud>
+    </geolocalizacion>
+    <productos>
+      <producto>
+        <nombre>Leche</nombre>
+        <oferta>true</oferta>
+        <periodo_vigencia>2023-06-01 al 2023-06-30</periodo_vigencia>
+        <detalles>
+          <unidad_medida>litro</unidad_medida>
+          <precio>1.3</precio>
+          <adquirido>true</adquirido>
+        </detalles>
+      </producto>
+      <producto>
+        <nombre>Pan</nombre>
+        <oferta>true</oferta>
+        <periodo_vigencia>2023-06-01 al 2023-06-30</periodo_vigencia>
+        <detalles>
+          <unidad_medida>unidad</unidad_medida>
+          <precio>0.6</precio>
+          <adquirido>false</adquirido>
+        </detalles>
+      </producto>
+      <!-- Resto de productos de Lidl -->
+    </productos>
+  </supermercado>
+</supermercados>
