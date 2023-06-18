@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reproductor de video</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+  <style>
+  
+
+  </style>
+</head>
+<body>
+<div id="container">
+  <h3>Carga de ficheros</h3>
+  <input type="file" name="files[]" multiple onchange="handleFileSelect(event)" />
+  <output id="list"></output>
+  <p id="loadingText" style="display: none;">Cargando video...</p>
+
+
+  
+  <div id="hideshowVideo" style="display: none;">
+    <h1>Reproductor de video</h1>
+  <div id="videoContainer">
+  </div>
+  
+    <video id="video" controls>
+      <track label="Español" kind="subtitles" srclang="es" src="subtituloses.vtt" default>
+      El reproductor que estás usando no permite reproducir este contenido,
+      puedes descargarlo en
+      <a href="https://archive.org/details/BigBuckBunny_124"></a>
+    </video>
+
+    <div id="containerButton">
+      <button onclick="document.getElementById('video').play();"><i class="fas fa-play"></i>Reproducir</button>
+      <button onclick="document.getElementById('video').pause();"><i class="fas fa-pause"></i>Pausa</button>
+      <button onclick="document.getElementById('video').volume += 0.1;"><i class="fas fa-volume-up"></i>Subir Volumen</button>
+      <button onclick="document.getElementById('video').volume -= 0.1;"><i class="fas fa-volume-down"></i>Bajar Volumen</button>
+    </div>
+</div>
+</div>
+
+
+
+
+
+  <script src="javascript.js">
+   
+  </script>
+
+
+</body>
+</html>
